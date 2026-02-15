@@ -1,0 +1,107 @@
+C++ Sample Output
+-----------------
+$ g++ -std=c++17 -O2 -Wall main.cpp -o ride_system
+$ ./ride_system
+
+--- Ride Details (Polymorphic Calls) ---
+Ride Type: Standard
+Ride ID: 101
+Pickup: Campus Library
+Dropoff: Downtown Plaza
+Distance: 4.20 miles
+Fare: $7.75
+
+Ride Type: Premium
+Ride ID: 202
+Pickup: Tech Park
+Dropoff: Airport Terminal
+Distance: 12.80 miles
+Fare: $33.80
+
+
+--- Driver Info ---
+Driver ID: 11
+Name: Jordan Lee
+Rating: 4.9
+Assigned rides: 2
+
+
+--- Driver Ride History ---
+
+Ride Type: Standard
+Ride ID: 101
+Pickup: Campus Library
+Dropoff: Downtown Plaza
+Distance: 4.20 miles
+Fare: $7.75
+
+Ride Type: Premium
+Ride ID: 202
+Pickup: Tech Park
+Dropoff: Airport Terminal
+Distance: 12.80 miles
+Fare: $33.80
+
+
+--- Rider Ride History ---
+Rider ID: 501
+Name: Avery Patel
+
+Ride Type: Standard
+Ride ID: 101
+Pickup: Campus Library
+Dropoff: Downtown Plaza
+Distance: 4.20 miles
+Fare: $7.75
+
+
+GNU Smalltalk Sample Output
+----------------------------
+$ gst RideSharing.gst
+
+--- Ride Details (Polymorphic Calls) ---
+Ride Type: Standard
+Ride ID: 101
+Pickup: Campus Library
+Dropoff: Downtown Plaza
+Distance: 4.20 miles
+Fare: $7.75
+
+Ride Type: Premium
+Ride ID: 202
+Pickup: Tech Park
+Dropoff: Airport Terminal
+Distance: 12.80 miles
+Fare: $33.80
+
+--- Driver Info ---
+Driver ID: 11
+Name: Jordan Lee
+Rating: 4.9
+Assigned rides: 2
+
+--- Driver Ride History ---
+Ride Type: Standard
+Ride ID: 101
+Pickup: Campus Library
+Dropoff: Downtown Plaza
+Distance: 4.20 miles
+Fare: $7.75
+
+Ride Type: Premium
+Ride ID: 202
+Pickup: Tech Park
+Dropoff: Airport Terminal
+Distance: 12.80 miles
+Fare: $33.80
+
+--- Rider Ride History ---
+Rider ID: 501
+Name: Avery Patel
+
+Ride Type: Standard
+Ride ID: 101
+Pickup: Campus Library
+Dropoff: Downtown Plaza
+Distance: 4.20 miles
+Fare: $7.75

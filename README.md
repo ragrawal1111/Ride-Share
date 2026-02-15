@@ -19,13 +19,11 @@ g++ -std=c++17 -O2 -Wall main.cpp -o ride_system
 ```
 
 ### GNU Smalltalk via Docker (recommended on Windows)
-Make sure Docker Desktop is running, then from the project directory:
-```bash
-docker run --rm -v "${PWD}:/app" -w /app ubuntu:22.04 bash -c \
-  "apt-get update -qq > /dev/null 2>&1 && \
-   apt-get install -y -qq gnu-smalltalk > /dev/null 2>&1 && \
-   gst /app/RideSharing.gst"
+Make sure Docker Desktop is running, then from the project directory in PowerShell:
+```powershell
+docker run --rm -v "${PWD}:/app" -w /app ubuntu:22.04 bash -c "apt-get update -qq > /dev/null 2>&1 && apt-get install -y -qq gnu-smalltalk > /dev/null 2>&1 && gst /app/RideSharing.gst"
 ```
+> **Note:** This must be pasted as a single line in PowerShell. Backslash line continuations do not work in PowerShell.
 
 ### GNU Smalltalk (Linux / macOS)
 ```bash
