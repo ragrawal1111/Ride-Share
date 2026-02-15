@@ -29,3 +29,11 @@ Thumbs.db
 *.zip
 *.tar
 *.tar.gz
+
+# Generated submission files
+generate_docx.py
+*.docx
+sample_output.txt
+report.md
+ride_system
+ride_system.exe
